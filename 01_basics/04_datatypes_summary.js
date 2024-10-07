@@ -11,3 +11,6 @@
 console.log(typeof null);//object
 console.log(typeof undefined);//undefine
 
+/***********************************MEMORY****************************************************/
+
+//STACK(PRIMITIVE)->WE GET COPY OF VARIABLE  HEAP (NON-PRIMITIVE)->WE GET REFERENCE OF THAT STORED VARIABLE
