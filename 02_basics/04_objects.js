@@ -57,3 +57,12 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))//to check whether some property exist or not in object
+
+const course = {
+    courseName:"JS",
+    price:999,
+    instructor:"donald Trump"
+}
+
+const {courseName} = course;
+console.log(courseName);
